@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/vendor/bin/phpcbf" standards="Magento2;MySource;PEAR;PHPCompatibility;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$PROJECT_DIR$/vendor/bin/phpcs"/>
+    </phpcs_settings>
+  </component>
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <PhpStanConfiguration tool_path="$PROJECT_DIR$/vendor/bin/phpstan"/>
+    </PhpStan_settings>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
+    <option name="suggestChangeDefaultLanguageLevel" value="7.4"/>
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter name="local-cma-project:cma-sample-project-1666184386" id="2fbe75d5-bc8f-4adb-8e62-ddb0ccee6428" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="local-cma-project:cma-sample-project-1666184386" DOCKER_REMOTE_PROJECT_PATH="/Users/sw/Projects/cma-sample-project"/>
+      </interpreter>
+      <interpreter name="local-cma-project:cma-sample-project-1670252332" id="2fbe75d5-bc8f-4adb-8e62-ddb0ccee6428" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="local-cma-project:cma-sample-project-1670252332" DOCKER_REMOTE_PROJECT_PATH="/Users/kalen/Desktop/Private/Scandiweb/Projects/cma-sample-project"/>
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$PROJECT_DIR$/vendor/bin/phpmd"/>
+    </phpmd_settings>
+  </component>
+  <component name="PhpCSFixer">
+    <phpcsfixer_settings>
+      <PhpCSFixerConfiguration tool_path="$PROJECT_DIR$/vendor/bin/php-cs-fixer" standards="PSR1;PSR2;Symfony;DoctrineAnnotation;PHP70Migration;PHP71Migration"/>
+    </phpcsfixer_settings>
+  </component>
+</project>
